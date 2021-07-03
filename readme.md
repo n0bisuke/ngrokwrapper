@@ -14,3 +14,12 @@ $ npm i -g ngrokwrapper
 ```
 $ ngrokwrapper http 3000
 ```
+
+npxで使う
+
+```
+$ npx ngrokwrapper http 3000
+
+Forwarding https://55d3497e3ce2.ngrok.io -> http://localhost:3000
+...
+```
