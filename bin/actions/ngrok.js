@@ -4,11 +4,9 @@ const main = async (params) => {
     try {
 
         const url = await ngrok.connect(params.port);
-        // console.log(url, params.port)
         return {
             url: url,
-            port: params.port,
-            token: params.token
+            port: params.port
         }
 
     } catch (error) {

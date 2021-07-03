@@ -1,43 +1,16 @@
 
-## linengrok
+## ngrokのwrapperです。
 
-LINE BOTをngrokで起動させたあとに、Webhook　URLを変更するの面倒ですよね？
-一気にやってくれます。
+LINE BOT関連で使いたかったのでお試し
 
-## インストールの仕方
+## インストール
 
 ```
-$ npm i -g linengrok
+$ npm i -g ngrokwrapper
 ```
 
 ## 使い方
 
 ```
-$ linengrok http <PORT> -t <アクセストークン>
+$ ngrokwrapper http 3000
 ```
-
-以下のようになります。
-
-```
-$ linengrok http 3000 -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-これでngrokでサーバーを起動させると、そのURLにLINE BOTのエンドポイントが変わります。
-
-`-p`オプションでパス指定ができます。デフォルトだと`/webhook`になります。
-
-- パス指定の例
-
-```
-$ linengrok http 3000 -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -p /linebot
-```
-
-## 類似ツール
-
-[linebotcli](https://www.npmjs.com/package/linebotcli)で同じようなことができます。
-
-```
-$ linebotcli ngrok ~~~
-```
-
-のコマンドにマージしていきます。

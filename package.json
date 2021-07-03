@@ -1,6 +1,6 @@
 {
-  "name": "linengrok",
-  "version": "0.0.5",
+  "name": "ngrokwrapper",
+  "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:n0bisuke/linengrok.git"
+    "url": "git+ssh://git@github.com:n0bisuke/ngrokcli.git"
   },
   "keywords": [
     "line",
@@ -22,7 +22,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "commander": "^8.0.0",
     "ngrok": "^4.0.1"
   }
