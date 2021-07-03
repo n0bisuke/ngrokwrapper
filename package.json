@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:n0bisuke/ngrokcli.git"
+    "url": "git+ssh://git@github.com:n0bisuke/ngrokwrapper.git"
   },
   "keywords": [
     "line",
